@@ -116,4 +116,5 @@ public class CardDeliveryTest {
         $$("button").find(exactText("Запланировать")).click();
         $(".input_invalid .checkbox__text").shouldHave(exactText("Я соглашаюсь с условиями обработки и использования моих персональных данных"));
     }
+
 }
