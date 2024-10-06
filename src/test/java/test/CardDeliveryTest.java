@@ -22,9 +22,7 @@ public class CardDeliveryTest {
 
     @BeforeEach
     public void setUp() {
-        Configuration.browser = "chrome";
         open("http://localhost:9999/");
-        $("[data-test-id='date'] input").doubleClick().sendKeys(Keys.BACK_SPACE);
     }
 
     @Test
